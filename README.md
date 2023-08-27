@@ -10,7 +10,11 @@ Unas imágenes :
 
 ![screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQc2qQg-CxEnfYcx8AM-PykaR9B9SfSiYtaeZEmoAE7hbWV8LMyS8M6VtmCPC7czazxz_Y7GdMVs7q_MGqRrN4qOUIAAzIPZHP-baxm85KJgzyx7-fwQWgNR_f9knptsOpOInQ3XfQtus_s15SSxuc4BPXkFEzTz020df5xgLiaKvqBVW8fIsruB8DFxU/s1900/Screenshot_3.png)
 
-Para instalar el gestor se debe ejecutar los siguientes comandos en el Backend : 
+Para instalar el sistema debe seguir los siguientes pasos :
+
+Primero configuramos el archivo .env en el directorio Backend con los datos de configuración de nuestro servidor MySQL, una vez configurado el archivo .env y creada la base de datos deben ejecutar el script llamado bd_libros.sql, con eso instalamos las tablas y creamos un usuario por defecto que mas tarde pueden cambiar, el usuario y clave por defecto será "supervisor".
+
+Para instalar el backend se debe ejecutar los siguientes comandos : 
 
 ```
 npm install
